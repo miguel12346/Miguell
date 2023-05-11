@@ -1,4 +1,56 @@
-header{
-    background-color: coral
-    #000000
+.cabeçalho {
+    background-color: #ffa600;
+    color: white;
+    display: flex;
+    padding: 24px;
+    font-size: 20px;
+    justify-content: space-around;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeçalhoimagem {
+    width: 8%;
+    height: 8%;
+}
+
+.cabeçalholista {
+    justify-content: center;
+}
+
+.sobre-o-lugar {
+    background-image: linear-gradient(#ff7b00, #383838);
+    color: white;
+    font-size: 20px;
+    padding: 0px 250px;
+}
+
+.sobre-a-panificadora-aquarius {
+    padding: 24px 0px;
+}
+
+.cardápio {
+    background-image: linear-gradient(#ff3a3a, #000000);
+    color: white;
+    font-size: 20px;
+    padding: 0px 250px;
+}
+
+.cardápio-da-semana {
+    padding: 24px 0px;
+}
+
+.galeria {
+    background-image: linear-gradient(#6d6d6d, #00ffc8);
+    color: white;
+    font-size: 20px;
+    padding: 0px 250px;
+}
+
+.fotos {
+    width: 1%;
+    height: 1%;
+} 
